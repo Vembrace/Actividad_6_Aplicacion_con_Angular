@@ -1,0 +1,4 @@
+<section class="persons">
+    <user-card *ngFor="let person of persons" [person]="person"></user-card>
+    <span *ngIf="!persons">No tienes contactos</span>
+</section>
